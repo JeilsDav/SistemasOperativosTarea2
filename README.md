@@ -26,18 +26,18 @@ El proyecto está organizado en los siguientes paquetes y clases:
 - **`OutputManager`**: Maneja la entrada y salida de datos, validando las entradas del usuario.
 
 ## Ejecución
-### 1. Compilar el proyecto
-Navega al directorio raíz del proyecto y ejecuta:
+### Paso 1: Clonar el repositorio
+Clona este repositorio en tu máquina local usando el siguiente comando:
 ```bash
-javac -d bin src/main/Main.java
+git clone https://github.com/tu_usuario/nombre_repositorio.git
 ```
-Esto compilará todos los archivos del proyecto en el directorio `bin`.
+Esto descargará todos los archivos necesarios para el programa.
 
-### 2. Ejecutar el programa
-Desde el directorio raíz, ejecuta:
-```bash
-java -cp bin main.Main
-```
+### Paso 2: Importar el proyecto
+Abre un entorno de desarrollo como **Eclipse** o **IntelliJ IDEA** y selecciona la opción para importar un proyecto existente desde el sistema de archivos. Asegúrate de configurar el entorno para usar una versión de JDK 8 o superior.
+
+### Paso 3: Ejecutar la clase principal
+Localiza la clase `Main` en el paquete `main` y ejecútala directamente desde el entorno de desarrollo. Esto iniciará el programa y te permitirá interactuar con él desde la consola integrada.
 
 ## Funcionalidades
 1. **Ingreso de particiones**:
